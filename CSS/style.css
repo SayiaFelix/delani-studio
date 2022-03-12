@@ -93,17 +93,25 @@ body {
     font-weight: 700;
 }
 
+.WE-DO h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+
 .what-we-do {
     height: 50vh;
     display: flex;
     justify-content: space-around;
-    margin-top: 4%;
+    margin-top: 3%;
     color: #000000;
 }
 
 #h4 {
     font-size: 17px;
     font-weight: bold;
+    color: #000000;
 }
 
 .design {
@@ -113,7 +121,7 @@ body {
     background-position: center;
     text-align: center;
     height: 50vh;
-    width: 32%;
+    width: 31%;
     font-size: 9px;
     font-weight: 600;
 }
@@ -127,7 +135,7 @@ body {
     height: 50vh;
     font-weight: 600;
     font-size: 9px;
-    width: 30%;
+    width: 31%;
 }
 
 
@@ -144,5 +152,20 @@ body {
     height: 50vh;
     font-weight: 600;
     font-size: 9px;
-    width: 30%;
+    width: 31%;
+}
+
+#portfolio {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.portfolio-cont {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    height: 70vh;
 }
