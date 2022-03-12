@@ -160,38 +160,27 @@
         font-size: 11px;
         color: black;
     }
-    /* p
     /* portfolio; */
     
-    #portfolio {
+    .portfolio {
         text-align: center;
         font-size: 30px;
         color: #000000;
         font-weight: bold;
+        margin-top: -12%;
+    }
+    
+    #portfolio {
+        text-align: center;
+        font-size: 20px;
+        color: #000000;
+        font-weight: bold;
         margin-top: -10%;
+        display: none;
     }
     
-    .portfolio-container1 {
-        display: flex;
-        justify-content: space-around;
-        height: 40vh;
+    #raw {
         margin-top: 3%;
-    }
-    
-    .portfolio-container2 {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .overlay {
-        background-image: url("../images/c_image.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 75vh;
-        width: 98%;
-        margin-top: 5%;
-        margin-left: 1%;
-        border-radius: 10px;
     }
     /* contact us; */
     

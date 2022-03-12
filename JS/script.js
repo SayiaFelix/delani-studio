@@ -51,5 +51,34 @@ $(document).ready(() => {
 
 
 
+    // $("work1-image").hover(function() {
+
+    //     $("#content1").show();
+
+
+    // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 });
