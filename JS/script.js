@@ -52,13 +52,13 @@ $(document).ready(() => {
     // project1
     $("#work1-image").mouseenter(
         function() {
-
             $("#portfolio").slideDown('slow').css("display", "block");
         })
-    $("#work1-image").mouseleave(function(e) {
-        e.preventDefault();
-        $("#portfolio").hide().break();
+    $("#work1-image").mouseleave(function() {
+
+        $("#portfolio").hide();
     });
+
 
     // project 2
     $("#work2-image").mouseenter(
