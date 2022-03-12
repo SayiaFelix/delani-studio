@@ -163,9 +163,14 @@ body {
     margin-top: 5%;
 }
 
-.portfolio-cont {
+.portfolio-container1 {
     display: flex;
     justify-content: space-around;
-    background-color: blue;
-    height: 70vh;
+    height: 40vh;
+    margin-top: 3%;
+}
+
+.portfolio-container2 {
+    display: flex;
+    justify-content: space-around;
 }
