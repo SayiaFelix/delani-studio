@@ -175,8 +175,9 @@
         font-size: 20px;
         color: #000000;
         font-weight: bold;
-        margin-top: -10%;
+        margin-top: -50%;
         display: none;
+        border: 2px solid white;
     }
     
     #raw {
