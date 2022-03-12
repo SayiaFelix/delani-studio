@@ -174,3 +174,63 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+.overlayy {
+    background-image: url("../images/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 98%;
+    margin-top: 5%;
+    margin-left: 1%;
+    border-radius: 10px;
+}
+
+.contact-us {
+    height: 75vh;
+    display: block;
+    margin-top: 5%;
+    background-color: rgb(100, 94, 90, 0.4);
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+#email {
+    float: right;
+    width: 30%;
+    border: 1px solid white;
+    margin-top: 3%;
+    margin-right: 22%;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#name {
+    margin-top: 3%;
+    float: left;
+    width: 30%;
+    margin-left: 15%;
+    border: 1px solid white;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#message {
+    margin-top: 1%;
+    width: 63%;
+    margin-left: 15%;
+    border: 1px solid white;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+}
