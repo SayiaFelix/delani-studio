@@ -1,277 +1,266 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
-    width: 100%;
-    max-width: 1200px;
-}
-
-
-/* delani studio; */
-
-.delani-studio {
-    background-image: url("../images/h_img.jpg");
-    height: 110vh;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#img1 {
-    margin-top: 17%;
-    width: 65px;
-}
-
-.delani-studio h2 {
-    font-size: 35px;
-    color: #ffffff;
-    font-weight: bold;
-    margin-top: 3%;
-}
-
-.delani-studio h3 {
-    font-size: 27px;
-    color: #ffffff;
-    font-weight: bold;
-    margin-top: 3%;
-}
-
-.delani-studio p {
-    font-size: 12px;
-    color: #ffffff;
-    font-weight: 900;
-}
-
-#img2 {
-    margin-top: 10.5%;
-}
-
-
-/* about us; */
-
-.about-us {
-    height: 22%;
-    text-align: center;
-    color: #000000;
-}
-
-.about-us h2 {
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.para1 {
-    margin-top: 2%;
-    font-weight: 700;
-}
-
-.para2 {
-    margin-top: 2%;
-    font-weight: 700;
-}
-
-
-/* services; */
-
-.service {
-    background-image: url("../images/s_image.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50vh;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 3%;
-    max-height: min-content;
-}
-
-#service {
-    font-weight: bold;
-    margin-top: 3%;
-    font-size: 30px;
-}
-
-.service p {
-    font-weight: 700;
-}
-
-.WE-DO h2 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    color: #000000;
-}
-
-
-/* what we do; */
-
-.what-we-do {
-    height: 50vh;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3%;
-    color: #000000;
-}
-
-#h4 {
-    font-size: 17px;
-    font-weight: bold;
-    color: #000000;
-}
-
-.design {
-    /* background-image: url("../images/design_icon.png"); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    height: 50vh;
-    width: 31%;
-    font-size: 9px;
-    font-weight: 600;
-}
-
-.development {
-    /* background-image: url("../images/dev_icon.png"); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    height: 50vh;
-    font-weight: 600;
-    font-size: 9px;
-    width: 31%;
-}
-
-
-/* .overlay {
-    display: none;
-} */
-
-.product-management {
-    /* background-image: url("../images/product_icon.png"); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    height: 50vh;
-    font-weight: 600;
-    font-size: 9px;
-    width: 31%;
-}
-
-
-/* portfolio; */
-
-#portfolio {
-    text-align: center;
-    font-size: 30px;
-    color: #000000;
-    font-weight: bold;
-    margin-top: 5%;
-}
-
-.portfolio-container1 {
-    display: flex;
-    justify-content: space-around;
-    height: 40vh;
-    margin-top: 3%;
-}
-
-.portfolio-container2 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.overlayy {
-    background-image: url("../images/c_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-    width: 98%;
-    margin-top: 5%;
-    margin-left: 1%;
-    border-radius: 10px;
-}
-
-
-/* contact us; */
-
-.contact-us {
-    height: 75vh;
-    display: block;
-    margin-top: 5%;
-    background-color: rgb(100, 94, 90, 0.4);
-    border: none;
-    width: 100%;
-    border-radius: 10px;
-}
-
-#h3 {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    color: #ffffff;
-}
-
-#email {
-    float: right;
-    width: 30%;
-    border: 1px solid white;
-    margin-top: 3%;
-    margin-right: 22%;
-    background: transparent;
-    color: #ffffff;
-    font-weight: 700;
-}
-
-#name {
-    margin-top: 3%;
-    float: left;
-    width: 30%;
-    margin-left: 15%;
-    border: 1px solid white;
-    background: transparent;
-    color: #ffffff;
-    font-weight: 700;
-}
-
-#message {
-    margin-top: 1%;
-    width: 63%;
-    margin-left: 15%;
-    border: 1px solid white;
-    background: transparent;
-    color: #ffffff;
-    font-weight: 700;
-}
-
-
-/* social media/footer; */
-
-.social {
-    height: 50px;
-    margin-top: 5%;
-    margin-left: 30%;
-}
-
-.social img {
-    width: 35px;
-}
-
-.media {
-    text-align: center;
-    color: #000000;
-}
-
-.media h4 {
-    font-size: 17px;
-    font-weight: bold;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #ffffff;
+        width: 100%;
+        max-width: 1200px;
+    }
+    /* delani studio; */
+    
+    .delani-studio {
+        background-image: url("../images/h_img.jpg");
+        height: 110vh;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #img1 {
+        margin-top: 17%;
+        width: 65px;
+    }
+    
+    .delani-studio h2 {
+        font-size: 35px;
+        color: #ffffff;
+        font-weight: bold;
+        margin-top: 3%;
+    }
+    
+    .delani-studio h3 {
+        font-size: 27px;
+        color: #ffffff;
+        font-weight: bold;
+        margin-top: 3%;
+    }
+    
+    .delani-studio p {
+        font-size: 12px;
+        color: #ffffff;
+        font-weight: 900;
+    }
+    
+    #img2 {
+        margin-top: 10.5%;
+    }
+    /* about us; */
+    
+    .about-us {
+        height: 22%;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .about-us h2 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .para1 {
+        margin-top: 2%;
+        font-weight: 700;
+    }
+    
+    .para2 {
+        margin-top: 2%;
+        font-weight: 700;
+    }
+    /* services; */
+    
+    .service {
+        background-image: url("../images/s_image.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 50vh;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 3%;
+        max-height: min-content;
+    }
+    
+    #service {
+        font-weight: bold;
+        margin-top: 3%;
+        font-size: 30px;
+    }
+    
+    .service p {
+        font-weight: 700;
+    }
+    
+    .WE-DO h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #000000;
+    }
+    /* what we do; */
+    
+    .WE-DO {
+        margin-top: 5%;
+    }
+    
+    .what-we-do {
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 7%;
+        color: #000000;
+        height: 60vh;
+    }
+    
+    .design,
+    .development,
+    .product-management {
+        height: 40vh;
+        width: 31%;
+        font-size: 9px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .design img,
+    .development img,
+    .product-management img {
+        width: 60px;
+    }
+    
+    .h41,
+    .h42,
+    .h43 {
+        font-weight: bold;
+        color: #000000;
+        font-size: 17px;
+    }
+    
+    .h44 {
+        font-weight: bold;
+        color: #000000;
+        margin-top: -45%;
+    }
+    
+    #overlay_design,
+    #overlay_development,
+    #overlay_product {
+        display: none;
+        margin-top: 40%;
+    }
+    
+    #overlay_design p,
+    #overlay_development p,
+    #overlay_product p {
+        font-size: 11px;
+        color: black;
+    }
+    /* p
+    /* portfolio; */
+    
+    #portfolio {
+        text-align: center;
+        font-size: 30px;
+        color: #000000;
+        font-weight: bold;
+        margin-top: -10%;
+    }
+    
+    .portfolio-container1 {
+        display: flex;
+        justify-content: space-around;
+        height: 40vh;
+        margin-top: 3%;
+    }
+    
+    .portfolio-container2 {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .overlay {
+        background-image: url("../images/c_image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 75vh;
+        width: 98%;
+        margin-top: 5%;
+        margin-left: 1%;
+        border-radius: 10px;
+    }
+    /* contact us; */
+    
+    .contact-us {
+        height: 75vh;
+        display: block;
+        margin-top: 5%;
+        background-color: rgb(100, 94, 90, 0.4);
+        border: none;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    #h3 {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    #email {
+        float: right;
+        width: 30%;
+        border: 1px solid white;
+        margin-top: 3%;
+        margin-right: 22%;
+        background: transparent;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    
+    #name {
+        margin-top: 3%;
+        float: left;
+        width: 30%;
+        margin-left: 15%;
+        border: 1px solid white;
+        background: transparent;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    
+    #message {
+        margin-top: 1%;
+        width: 63%;
+        margin-left: 15%;
+        border: 1px solid white;
+        background: transparent;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    /* social media/footer; */
+    
+    .social {
+        height: 50px;
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+    
+    .social img {
+        width: 35px;
+    }
+    
+    .media {
+        text-align: center;
+        color: #000000;
+    }
+    
+    .media h4 {
+        font-size: 17px;
+        font-weight: bold;
+    }
