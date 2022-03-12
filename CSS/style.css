@@ -12,6 +12,9 @@ body {
     max-width: 1200px;
 }
 
+
+/* delani studio; */
+
 .delani-studio {
     background-image: url("../images/h_img.jpg");
     height: 110vh;
@@ -50,6 +53,9 @@ body {
     margin-top: 10.5%;
 }
 
+
+/* about us; */
+
 .about-us {
     height: 22%;
     text-align: center;
@@ -70,6 +76,9 @@ body {
     margin-top: 2%;
     font-weight: 700;
 }
+
+
+/* services; */
 
 .service {
     background-image: url("../images/s_image.jpg");
@@ -99,6 +108,9 @@ body {
     font-weight: bold;
     color: #000000;
 }
+
+
+/* what we do; */
 
 .what-we-do {
     height: 50vh;
@@ -155,6 +167,9 @@ body {
     width: 31%;
 }
 
+
+/* portfolio; */
+
 #portfolio {
     text-align: center;
     font-size: 30px;
@@ -185,6 +200,9 @@ body {
     margin-left: 1%;
     border-radius: 10px;
 }
+
+
+/* contact us; */
 
 .contact-us {
     height: 75vh;
@@ -234,6 +252,9 @@ body {
     color: #ffffff;
     font-weight: 700;
 }
+
+
+/* social media/footer; */
 
 .social {
     height: 50px;
