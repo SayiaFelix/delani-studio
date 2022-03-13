@@ -15,11 +15,13 @@
  .delani-studio {
      background-image: url("../images/h_img.jpg");
      height: 110vh;
+     min-height: 40vh;
      text-align: center;
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center center;
      position: relative;
+     min-width: 300px;
  }
  
  #img1 {
@@ -35,14 +37,14 @@
  }
  
  .delani-studio h3 {
-     font-size: 27px;
+     font-size: 29px;
      color: #ffffff;
      font-weight: bold;
      margin-top: 3%;
  }
  
  .delani-studio p {
-     font-size: 12px;
+     font-size: 15px;
      color: #ffffff;
      font-weight: 900;
  }
@@ -89,7 +91,7 @@
      text-align: center;
      color: #ffffff;
      margin-top: 3%;
-     max-height: min-content;
+     min-height: 30vh;
  }
  
  #service {
@@ -168,12 +170,20 @@
  }
  /* portfolio; */
  
+ .row {
+     margin-top: 5%;
+ }
+ 
+ .container {
+     min-height: 60vh;
+ }
+ 
  .portfolio {
      text-align: center;
      font-size: 30px;
      color: #000000;
      font-weight: bold;
-     margin-top: -12%;
+     margin-top: -10%;
  }
  
  #portfolio1,
@@ -191,6 +201,7 @@
      margin-top: -45%;
      display: none;
      border: 2px solid white;
+     margin-right: -2%;
  }
  
  #portfolio5,
@@ -228,13 +239,14 @@
  }
  
  .contact-us {
-     height: 450px;
+     height: 500px;
      display: block;
      margin-top: 5%;
      background-color: rgb(100, 94, 90, 0.4);
      border: none;
      width: 100%;
      border-radius: 10px;
+     min-height: 480px;
  }
  
  #h3 {
@@ -284,6 +296,7 @@
      height: 50px;
      margin-top: 5%;
      margin-left: 30%;
+     min-height: 45px;
  }
  
  .social img {
@@ -298,6 +311,7 @@
  .media h4 {
      font-size: 17px;
      font-weight: bold;
+     bottom: 98%;
  }
  
  @media screen and(max-width:500px) {
