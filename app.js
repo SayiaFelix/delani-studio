@@ -1,34 +1,6 @@
-// // API SECTION
-// const express = require('express');
-// const request = require('request');
-// const bodyParser = require('body-parser');
-// const path = require('path');
-
-// const app = express();
-
-// app.use(bodyParser.urlencoded({ extended: true }))
-
-// app.use(express.static(path.join(__dirname, 'DELANI-STUDIO')));
-
-// app.post('', function(req, res) {
-
-//     const { name, email, text } = req.body;
-
-
-
-
-
-// });
-
-
-
-// const PORT = process.env.PORT || 5000;
-// app.listen(PORT, console.log(`server started on ${PORT}`))
-// app.listen(PORT, console.log(`server started on ${PORT}`))
-
 $(document).ready(() => {
     $("#design-img").click(() => {
-
+        //design image
         $("#design-img, .h41").hide()
         $("#overlay_design").toggle().css('text-align', 'center');
 
@@ -40,8 +12,9 @@ $(document).ready(() => {
 
     });
 
-    // development image
 
+
+    // development image
 
     $("#development-img").click(() => {
 
@@ -56,6 +29,8 @@ $(document).ready(() => {
         $("#development-img, .h42").toggle()
 
     });
+
+
 
     // product image
 
@@ -75,6 +50,8 @@ $(document).ready(() => {
     });
 
 
+    // hover effect
+
     // project1
     $("#work1-image").mouseenter(
         function() {
@@ -86,6 +63,7 @@ $(document).ready(() => {
     });
 
 
+
     // project 2
     $("#work2-image").mouseenter(
         function() {
@@ -94,6 +72,7 @@ $(document).ready(() => {
     $("#work2-image").mouseleave(function() {
         $("#portfolio2").hide();
     });
+
 
     // project 3
     $("#work3-image").mouseenter(
@@ -105,6 +84,7 @@ $(document).ready(() => {
     });
 
 
+
     // project 4
     $("#work4-image").mouseenter(
         function() {
@@ -113,6 +93,7 @@ $(document).ready(() => {
     $("#work4-image").mouseleave(function() {
         $("#portfolio4").hide();
     });
+
 
     // project 5
     $("#work5-image").mouseenter(
@@ -124,6 +105,7 @@ $(document).ready(() => {
     });
 
 
+
     // project 6
     $("#work6-image").mouseenter(
         function() {
@@ -133,6 +115,7 @@ $(document).ready(() => {
         $("#portfolio6").hide();
     });
 
+
     // project 7
     $("#work7-image").mouseenter(
         function() {
@@ -141,6 +124,7 @@ $(document).ready(() => {
     $("#work7-image").mouseleave(function() {
         $("#portfolio7").hide();
     });
+
 
     // project 8
 
@@ -153,37 +137,32 @@ $(document).ready(() => {
     });
 
 
-    // $("#work1-image").hover(
-    //     function() {
-    //         $("#portfolio").css("display", "none").slideDown(1000);
-    //     },
-    //     function() {
-    //         $("#portfolio").css("display", "block").slideUp(slow);
-    //     }
-    // );
+
+
+    // Subscribing part/signing up
 
 
 
-    // $("#work2-image").hover(function() {
-
-    //         $("#portfolio2").slideDown('slow').css("display", "block");
-
-    //     },
-    //     function() {
-    //         $("#portfolio2").hide();
-
-    //     });
-
-
-
-
-
-
-
-
-
-
-
-
+    (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = 'EMAIL';
+        ftypes[0] = 'email';
+        fnames[1] = 'FNAME';
+        ftypes[1] = 'text';
+        fnames[2] = 'LNAME';
+        ftypes[2] = 'text';
+        fnames[3] = 'ADDRESS';
+        ftypes[3] = 'address';
+        fnames[4] = 'PHONE';
+        ftypes[4] = 'phone';
+        fnames[5] = 'BIRTHDAY';
+        ftypes[5] = 'birthday';
+        fnames[6] = 'MMERGE6';
+        ftypes[6] = 'birthday';
+        fnames[7] = 'MMERGE7';
+        ftypes[7] = 'text';
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
 
 });
