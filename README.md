@@ -28,7 +28,7 @@ https://github.com/SayiaFelix/delani-studio.git
 
 ### Live site
 Available Here;
-
+https://sayiafelix.github.io/delani-studio/
 
 
 ### Live Demo
