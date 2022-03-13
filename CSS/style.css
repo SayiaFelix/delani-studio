@@ -9,6 +9,8 @@
      font-family: 'Poppins', sans-serif;
      background-color: #ffffff;
      width: 100%;
+     overflow-x: hidden;
+     max-width: 1800px;
  }
  /* delani studio; */
  
