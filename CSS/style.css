@@ -50,6 +50,12 @@
     #img2 {
         margin-top: 10.5%;
     }
+    
+    button {
+        background-color: transparent;
+        border: none;
+        margin-top: 10.5%;
+    }
     /* about us; */
     
     .about-us {

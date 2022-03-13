@@ -1,0 +1,28 @@
+{
+    "name": "delani-studio",
+    "version": "1.0.0",
+    "description": "delani newLetter app",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app",
+        "dev": "nodemon app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SayiaFelix/delani-studio.git"
+    },
+    "author": "Sayia Felix Lucas",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SayiaFelix/delani-studio/issues"
+    },
+    "homepage": "https://github.com/SayiaFelix/delani-studio#readme",
+    "dependencies": {
+        "body-parser": "^1.19.2",
+        "express": "^4.17.3",
+        "request": "^2.88.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
