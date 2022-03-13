@@ -1,6 +1,32 @@
-$(document).ready(() => {
+// // API SECTION
+// const express = require('express');
+// const request = require('request');
+// const bodyParser = require('body-parser');
+// const path = require('path');
 
-    // design image
+// const app = express();
+
+// app.use(bodyParser.urlencoded({ extended: true }))
+
+// app.use(express.static(path.join(__dirname, 'DELANI-STUDIO')));
+
+// app.post('', function(req, res) {
+
+//     const { name, email, text } = req.body;
+
+
+
+
+
+// });
+
+
+
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, console.log(`server started on ${PORT}`))
+// app.listen(PORT, console.log(`server started on ${PORT}`))
+
+$(document).ready(() => {
     $("#design-img").click(() => {
 
         $("#design-img, .h41").hide()
@@ -52,82 +78,82 @@ $(document).ready(() => {
     // project1
     $("#work1-image").mouseenter(
         function() {
-            $("#portfolio").slideDown('slow').css("display", "block");
+            $("#portfolio1").slideDown('slow').css("display", "block");
         })
     $("#work1-image").mouseleave(function() {
 
-        $("#portfolio").hide();
+        $("#portfolio1").hide();
     });
 
 
     // project 2
     $("#work2-image").mouseenter(
         function() {
-            $("#portfolio").slideDown('slow').css("display", "block");
+            $("#portfolio2").slideDown('slow').css("display", "block");
         })
     $("#work2-image").mouseleave(function() {
-        $("#portfolio").hide();
+        $("#portfolio2").hide();
     });
 
     // project 3
     $("#work3-image").mouseenter(
         function() {
-            $("#portfolio").slideDown('slow').css("display", "block");
+            $("#portfolio3").slideDown('slow').css("display", "block");
         })
     $("#work3-image").mouseleave(function() {
-        $("#portfolio").hide();
+        $("#portfolio3").hide();
     });
 
 
     // project 4
     $("#work4-image").mouseenter(
         function() {
-            $("#portfolio").slideDown('slow').css("display", "block");
+            $("#portfolio4").slideDown('slow').css("display", "block");
         })
     $("#work4-image").mouseleave(function() {
-        $("#portfolio").hide();
+        $("#portfolio4").hide();
     });
 
     // project 5
     $("#work5-image").mouseenter(
         function() {
-            $("#portfolio").slideDown('slow').css("display", "block");
+            $("#portfolio5").slideDown('slow').css("display", "block");
         })
     $("#work5-image").mouseleave(function() {
-        $("#portfolio").hide();
+        $("#portfolio5").hide();
     });
 
 
     // project 6
     $("#work6-image").mouseenter(
         function() {
-            $("#portfolio").slideDown('slow').css("display", "block");
+            $("#portfolio6").slideDown('slow').css("display", "block");
         })
     $("#work6-image").mouseleave(function() {
-        $("#portfolio").hide();
+        $("#portfolio6").hide();
     });
 
     // project 7
     $("#work7-image").mouseenter(
         function() {
-            $("#portfolio").slideDown('slow').css("display", "block");
+            $("#portfolio7").slideDown('slow').css("display", "block");
         })
     $("#work7-image").mouseleave(function() {
-        $("#portfolio").hide();
+        $("#portfolio7").hide();
     });
 
     // project 8
 
     $("#work8-image").mouseenter(
         function() {
-            $("#portfolio").slideDown('slow').css("display", "block");
+            $("#portfolio8").slideDown('slow').css("display", "block");
         })
     $("#work8-image").mouseleave(function() {
-        $("#portfolio").hide();
+        $("#portfolio8").hide();
     });
 
 
-    // $("#work-image").hover(
+    // $("#work1-image").hover(
     //     function() {
     //         $("#portfolio").css("display", "none").slideDown(1000);
     //     },
@@ -138,21 +164,15 @@ $(document).ready(() => {
 
 
 
-    // API SECTION
-    const express = require('express');
-    const request = require('request');
-    const bodyParser = require('body-parser');
-    const path = require('path');
+    // $("#work2-image").hover(function() {
 
-    const app = express();
+    //         $("#portfolio2").slideDown('slow').css("display", "block");
 
-    const PORT = process.env.PORT || 5000;
-    app.listen(PORT, console.log(`server started on ${PORT}`))
+    //     },
+    //     function() {
+    //         $("#portfolio2").hide();
 
-
-
-
-
+    //     });
 
 
 
