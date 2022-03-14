@@ -189,11 +189,8 @@
  }
  
  #portfolio1,
- #portfolio2,
  #portfolio3,
  #portfolio4,
- #portfolio5,
- #portfolio6,
  #portfolio7,
  #portfolio8 {
      text-align: center;
@@ -202,8 +199,8 @@
      font-weight: bold;
      margin-top: -45%;
      display: none;
-     border: 2px solid white;
      margin-right: -2%;
+     border: 2px solid white;
  }
  
  #portfolio5,

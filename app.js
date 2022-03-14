@@ -1,4 +1,17 @@
 $(document).ready(() => {
+
+
+    $("#submit-btn").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".about-us").offset().top
+        }, 100);
+    });
+
+
+
+
+
+
     $("#design-img").click(() => {
         //design image
         $("#design-img, .h41").hide()
@@ -48,6 +61,7 @@ $(document).ready(() => {
         $("#product-img, .h43").toggle()
 
     });
+
 
 
     // hover effect
